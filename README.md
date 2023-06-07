@@ -25,7 +25,6 @@ AWS is a comprehensive, easy to use computing platform offered Amazon.
 - Enable Static Website Hosting  
 - Select Host a Static Website and use index.html as the Index Document and the Error Document
 ![Screenshot from 2023-06-05 17-03-43](https://github.com/anjali-sim/React-Practical-8/assets/122269010/08230e8e-c635-4bf6-9184-a5d99d264586)
-
 ![Screenshot from 2023-06-05 17-05-53](https://github.com/anjali-sim/React-Practical-8/assets/122269010/dcfc3f78-ec1c-491c-baf4-6e6de065c320)
 3. Configure settings and permissions.
 - Disable BLOCK PUBLIC ACCESS permissions
@@ -39,5 +38,13 @@ AWS is a comprehensive, easy to use computing platform offered Amazon.
 ![Screenshot from 2023-06-05 18-34-40](https://github.com/anjali-sim/React-Practical-8/assets/122269010/bca8c2ef-fe88-4314-b705-e61926f5fd62)
 ![Screenshot from 2023-06-05 18-34-49](https://github.com/anjali-sim/React-Practical-8/assets/122269010/4c54101d-24da-478c-8a1e-4adb13170c3e)
 
+## :sparkles: Steps to deploy react application using CloudFront
+1. Go to CloudFront Service and click on Create Distribution.
+![Screenshot from 2023-06-06 19-35-59](https://github.com/anjali-sim/React-Practical-8/assets/122269010/e8165df8-45fa-4cb2-9945-2c13f9c9fe13)
+2. Then, click the bucket as the Origin Domain from the dropdown. And specify the Default root object to index.html and specify other configurations if you want any.
+3. After configuring all the options, finally click on Create Distribution and wait for a while and the deployed link is provided.
+![Screenshot from 2023-06-06 19-39-11](https://github.com/anjali-sim/React-Practical-8/assets/122269010/0b32a5e5-a3b1-4bcc-b9da-ddc2a5218a70)
+
 ## :rocket: Deployed Link
-http://practical-8.s3-website.ap-south-1.amazonaws.com/
+- <b>Using S3</b>: http://practical-8.s3-website.ap-south-1.amazonaws.com/
+- <b>Using CloudFront</b>: https://d9lppe5zpyt2c.cloudfront.net/
